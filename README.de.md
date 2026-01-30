@@ -404,5 +404,5 @@ Dies ist ein **unabhängiges Projekt** und steht in keiner offiziellen Verbindun
 ---
 
 <p align="center">
-  Erstellt mit ❤️ von <a href="https://github.com/aencyorganization">Aency Organization</a>
+  Erstellt mit 💚 von <a href="https://github.com/aencyorganization">Aency Organization</a>
 </p>

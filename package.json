@@ -13,7 +13,8 @@
     "dev": "neu run",
     "build": "neu build",
     "build:release": "neu build --release",
-    "build:appimage": "node scripts/build/build-appimage.js"
+    "build:appimage": "node scripts/build/build-appimage.js",
+    "install:system": "node scripts/install/install.js"
   },
   "keywords": [
     "openchamber",

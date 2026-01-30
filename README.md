@@ -449,7 +449,7 @@ This is an **independent project** and is not officially affiliated with OpenCod
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/aencyorganization">Aency Organization</a>
+  Made with 💚 by <a href="https://github.com/aencyorganization">Aency Organization</a>
 </p>
 
 <p align="center">

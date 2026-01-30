@@ -404,5 +404,5 @@ Ceci est un **projet indépendant** et n'est pas officiellement affilié à Open
 ---
 
 <p align="center">
-  Fait avec ❤️ par <a href="https://github.com/aencyorganization">Aency Organization</a>
+  Fait avec 💚 par <a href="https://github.com/aencyorganization">Aency Organization</a>
 </p>

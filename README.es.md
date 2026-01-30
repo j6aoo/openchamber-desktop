@@ -404,5 +404,5 @@ Este es un **proyecto independiente** y no está oficialmente afiliado a OpenCod
 ---
 
 <p align="center">
-  Hecho con ❤️ por <a href="https://github.com/aencyorganization">Aency Organization</a>
+  Hecho con 💚 por <a href="https://github.com/aencyorganization">Aency Organization</a>
 </p>
