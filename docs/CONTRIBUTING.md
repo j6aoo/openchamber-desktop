@@ -1,68 +1,58 @@
-# Contributing to OpenChamber Launcher
+# Contributing Guide
 
-Thank you for your interest in contributing to OpenChamber Launcher! We welcome contributions from the community.
+[English](#english) | [Português](#português) | [Español](#español) | [Français](#français) | [Deutsch](#deutsch)
 
-## How to Contribute
+---
 
-### Reporting Bugs
+<a name="english"></a>
+## 🇺🇸 English
+### How to help:
+1. **Fork** the project.
+2. **Branch**: `git checkout -b my-feature`.
+3. **Change**: Write your code and test it.
+4. **Push**: `git push origin my-feature`.
+5. **PR**: Open a Pull Request.
 
-If you find a bug, please open an issue with:
-- A clear title and description
-- Steps to reproduce the bug
-- Expected vs actual behavior
-- Your operating system and version
-- Screenshots if applicable
+---
 
-### Suggesting Features
+<a name="português"></a>
+## 🇧🇷 Português
+### Como ajudar:
+1. **Fork**: Faça um fork do projeto.
+2. **Branch**: `git checkout -b minha-melhoria`.
+3. **Alterar**: Escreva seu código e teste.
+4. **Push**: `git push origin minha-melhoria`.
+5. **PR**: Abra um Pull Request.
 
-We welcome feature suggestions! Please open an issue with:
-- A clear description of the feature
-- Why it would be useful
-- Any implementation ideas you have
+---
 
-### Pull Requests
+<a name="español"></a>
+## 🇪🇸 Español
+### Cómo ayudar:
+1. **Fork**: Haz un fork del proyecto.
+2. **Rama**: `git checkout -b mi-mejora`.
+3. **Cambiar**: Escribe tu código y prueba.
+4. **Push**: `git push origin mi-mejora`.
+5. **PR**: Abre un Pull Request.
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Test your changes thoroughly
-5. Commit your changes (`git commit -m 'Add amazing feature'`)
-6. Push to the branch (`git push origin feature/amazing-feature`)
-7. Open a Pull Request
+---
 
-### Development Setup
+<a name="français"></a>
+## 🇫🇷 Français
+### Comment aider:
+1. **Fork**: Forkez le projet.
+2. **Branche**: `git checkout -b ma-fonctionnalite`.
+3. **Modifier**: Écrivez votre code et testez-le.
+4. **Push**: `git push origin ma-fonctionnalite`.
+5. **PR**: Ouvrez une Pull Request.
 
-```bash
-# Clone your fork
-git clone https://github.com/your-username/openchamber-desktop.git
-cd openchamber-desktop
+---
 
-# Install dependencies
-bun install
-
-# Run in development mode
-bun run dev
-
-# Build for production
-bun run build:release
-```
-
-### Code Style
-
-- Use meaningful variable and function names
-- Add comments for complex logic
-- Keep functions small and focused
-- Follow the existing code structure
-
-### Testing
-
-- Test on multiple platforms if possible (Linux, macOS, Windows)
-- Ensure the app starts correctly
-- Verify that OpenChamber detection works
-- Test the cleanup process on exit
-
-## Questions?
-
-Feel free to open an issue for any questions you may have.
-
-Thank you for contributing! 🚀
+<a name="deutsch"></a>
+## 🇩🇪 Deutsch
+### Wie man hilft:
+1. **Fork**: Forke das Projekt.
+2. **Branch**: `git checkout -b mein-feature`.
+3. **Ändern**: Schreibe deinen Code und teste ihn.
+4. **Push**: `git push origin mein-feature`.
+5. **PR**: Öffne einen Pull Request.

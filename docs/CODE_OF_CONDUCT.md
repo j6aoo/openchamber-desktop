@@ -1,40 +1,48 @@
 # Code of Conduct
 
-## Our Pledge
+[English](#english) | [Português](#português) | [Español](#español) | [Français](#français) | [Deutsch](#deutsch)
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, religion, or sexual identity
-and orientation.
+---
 
-## Our Standards
+<a name="english"></a>
+## 🇺🇸 English
+- **Be kind**: Treat everyone with respect.
+- **Be inclusive**: Welcome all contributors regardless of background.
+- **Zero tolerance**: Harassment, insults, and inappropriate behavior are not allowed.
+- **Report**: If you see something wrong, contact the maintainers.
 
-Examples of behavior that contributes to a positive environment:
+---
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+<a name="português"></a>
+## 🇧🇷 Português
+- **Seja gentil**: Trate todos com respeito.
+- **Seja inclusivo**: Dê as boas-vindas a todos, independentemente da origem.
+- **Tolerância zero**: Assédio, insultos e comportamentos inadequados não são permitidos.
+- **Denuncie**: Se vir algo errado, entre em contato com os mantenedores.
 
-Examples of unacceptable behavior:
+---
 
-* The use of sexualized language or imagery
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information without permission
-* Other conduct which could reasonably be considered inappropriate
+<a name="español"></a>
+## 🇪🇸 Español
+- **Sé amable**: Trata a todos con respeto.
+- **Sé inclusivo**: Da la bienvenida a todos, sin importar su origen.
+- **Tolerancia cero**: No se permite el acoso, los insultos ni el comportamiento inapropiado.
+- **Informa**: Si ves algo mal, contacta a los mantenedores.
 
-## Enforcement
+---
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the project maintainers. All complaints will be reviewed and
-investigated promptly and fairly.
+<a name="français"></a>
+## 🇫🇷 Français
+- **Soyez gentil**: Traitez tout le monde avec respect.
+- **Soyez inclusif**: Accueillez tous les contributeurs, quelle que soit leur origine.
+- **Tolérance zéro**: Le harcèlement, les insultes et les comportements inappropriés ne sont pas autorisés.
+- **Signaler**: Si vous voyez quelque chose de mal, contactez les responsables.
 
-## Attribution
+---
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org),
-version 2.0, available at
-https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+<a name="deutsch"></a>
+## 🇩🇪 Deutsch
+- **Sei freundlich**: Behandle jeden mit Respekt.
+- **Sei inklusiv**: Heiße alle willkommen, unabhängig von ihrer Herkunft.
+- **Null Toleranz**: Belästigung, Beleidigungen und unangemessenes Verhalten sind nicht erlaubt.
+- **Melden**: Wenn du etwas Falsches siehst, kontaktiere die Maintainer.
