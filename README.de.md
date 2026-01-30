@@ -361,7 +361,10 @@ export PATH="$HOME/.bun/bin:$PATH"
 **Lösung:**
 - Anwendung neu starten
 - Session Storage des Browsers löschen
-- Wenn das Problem weiterhin besteht, den Ordner `.tmp/` löschen und neu starten
+- Wenn das Problem weiterhin besteht, den temporären Ordner löschen:
+  - **Windows:** Löschen Sie `%TEMP%\neutralinojs\` oder `%LOCALAPPDATA%\Temp\neutralinojs\`
+  - **Linux:** Löschen Sie `~/.tmp/` oder `/tmp/neutralinojs/`
+  - **macOS:** Löschen Sie `~/.tmp/` oder `/tmp/neutralinojs/`
 
 ### AppImage startet nicht
 

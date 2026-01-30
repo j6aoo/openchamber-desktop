@@ -27,7 +27,25 @@ if exist "%SOURCE_DIR%\bin" (
 
 :: Create Start Menu shortcut
 set "SHORTCUT_PATH=%APPDATA%\Microsoft\Windows\Start Menu\Programs\%DISPLAY_NAME%.lnk"
-powershell -Command "$ws = New-Object -ComObject WScript.Shell; $s = $ws.CreateShortcut('%SHORTCUT_PATH%'); $s.TargetPath = 'node.exe'; $s.Arguments = '\"%INSTALL_DIR%\bin\cli.js\"'; $s.WorkingDirectory = '%INSTALL_DIR%'; $s.IconLocation = '%INSTALL_DIR%\assets\openchamber-logo-dark.png'; $s.Save()"
+
+:: Try to find node.exe in PATH
+for /f "delims=" %%i in ('where node.exe 2^>nul') do set "NODE_PATH=%%i"
+
+if not defined NODE_PATH (
+    echo Warning: Node.js not found in PATH. Checking common locations...
+    if exist "%ProgramFiles%\nodejs\node.exe" (
+        set "NODE_PATH=%ProgramFiles%\nodejs\node.exe"
+    ) else if exist "%ProgramFiles(x86)%\nodejs\node.exe" (
+        set "NODE_PATH=%ProgramFiles(x86)%\nodejs\node.exe"
+    ) else (
+        echo Error: Node.js not found. Please install Node.js from https://nodejs.org/
+        pause
+        exit /b 1
+    )
+)
+
+echo Using Node.js at: %NODE_PATH%
+powershell -Command "$ws = New-Object -ComObject WScript.Shell; $s = $ws.CreateShortcut('%SHORTCUT_PATH%'); $s.TargetPath = '%NODE_PATH%'; $s.Arguments = '\"%INSTALL_DIR%\bin\cli.js\"'; $s.WorkingDirectory = '%INSTALL_DIR%'; $s.IconLocation = '%INSTALL_DIR%\assets\openchamber-logo-dark.png'; $s.Save()"
 
 :: Add to PATH
 setx PATH "%PATH%;%INSTALL_DIR%\bin"

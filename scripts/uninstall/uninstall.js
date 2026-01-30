@@ -15,7 +15,9 @@ if (!script) {
 }
 
 try {
-  execSync(script, { stdio: 'inherit', cwd: __dirname });
+  // Windows needs cmd.exe to run .bat files
+  const command = os === 'win32' ? `cmd /c "${script}"` : script;
+  execSync(command, { stdio: 'inherit', cwd: __dirname });
 } catch (e) {
   console.error('Uninstallation failed:', e.message);
   process.exit(1);

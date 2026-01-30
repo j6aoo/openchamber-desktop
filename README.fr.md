@@ -361,7 +361,10 @@ export PATH="$HOME/.bun/bin:$PATH"
 **Solution :**
 - Redémarrez l'application
 - Effacez le session storage du navigateur
-- Si le problème persiste, supprimez le dossier `.tmp/` et redémarrez
+- Si le problème persiste, supprimez le dossier temporaire:
+  - **Windows:** Supprimez `%TEMP%\neutralinojs\` ou `%LOCALAPPDATA%\Temp\neutralinojs\`
+  - **Linux:** Supprimez `~/.tmp/` ou `/tmp/neutralinojs/`
+  - **macOS:** Supprimez `~/.tmp/` ou `/tmp/neutralinojs/`
 
 ### L'AppImage ne se lance pas
 
