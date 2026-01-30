@@ -71,8 +71,7 @@ function main() {
   // Launch the binary
   const args = [
     '--load-dir-res',
-    '--path=.',
-    '--export-auth-info'
+    '--path=.'
   ];
   
   console.log('Starting OpenChamber Desktop...');
